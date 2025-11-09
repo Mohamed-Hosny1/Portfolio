@@ -62,7 +62,7 @@ header a {
 /* End of skills */
 /* My projects */
 .my-project:hover {
-  transform: scale(1.04);
+  transform: scale(1.06);
   transition: 0.2s linear;
 }
 /* contact */

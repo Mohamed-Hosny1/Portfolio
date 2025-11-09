@@ -1,3 +1,6 @@
+AOS.init({
+  duration: 800,
+});
 var typed = new Typed("#typed", {
   strings: [
     "Hi, there!",
@@ -5,7 +8,7 @@ var typed = new Typed("#typed", {
     "I'm Mohamed Hosny",
     "Frontend Developer",
     "Building Web Experiences",
-    "experience More than year",
+    
   ],
   typeSpeed: 90,
   backSpeed: 50,

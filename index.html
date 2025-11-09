@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/main.css" />
@@ -118,7 +119,7 @@
         <!-- content -->
         <div class="container">
           <div class="row gy-2">
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-4" data-aos="slide-right">
               <div
                 class="shadow-lg border rounded-4 d-flex align-items-center justify-content-center p-3 bg-dark h-100"
               >
@@ -137,7 +138,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-4" data-aos="fade-down">
               <div
                 class="shadow-lg border rounded-4 d-flex align-items-center justify-content-center p-3 bg-dark h-100"
               >
@@ -156,7 +157,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-4" data-aos="slide-left">
               <div
                 class="shadow-lg border rounded-4 d-flex align-items-center justify-content-center p-3 bg-dark h-100"
               >
@@ -175,7 +176,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-4" data-aos="fade-right">
               <div
                 class="shadow-lg border rounded-4 d-flex align-items-center justify-content-center p-3 bg-dark h-100"
               >
@@ -197,7 +198,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in-up">
               <div
                 class="shadow-lg border rounded-4 d-flex align-items-center justify-content-center p-3 bg-dark h-100"
               >
@@ -219,7 +220,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-4" data-aos="fade-left">
               <div
                 class="shadow-lg border rounded-4 d-flex align-items-center justify-content-center p-3 bg-dark h-100"
               >
@@ -234,7 +235,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-4" data-aos="slide-right">
               <div
                 class="shadow-lg border rounded-4 d-flex align-items-center justify-content-center p-3 bg-dark h-100"
               >
@@ -252,7 +253,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-4" data-aos="flip-down">
               <div
                 class="shadow-lg border rounded-4 d-flex align-items-center justify-content-center p-3 bg-dark h-100"
               >
@@ -273,7 +274,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-4" data-aos="slide-left">
               <div
                 class="shadow-lg border rounded-4 d-flex align-items-center justify-content-center p-3 bg-dark h-100"
               >
@@ -293,7 +294,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-4" data-aos="fade-up">
               <div
                 class="shadow-lg border rounded-4 d-flex align-items-center justify-content-center p-3 bg-dark h-100"
               >
@@ -313,7 +314,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-4" data-aos="fade-up">
               <div
                 class="shadow-lg border rounded-4 d-flex align-items-center justify-content-center p-3 bg-dark h-100"
               >
@@ -334,7 +335,7 @@
               </div>
             </div>
           </div>
-          <div class="mt-5">
+          <div class="mt-5" data-aos="slide-right">
             <h3 class="text-capitalize text-info fw-bold my-5">soft skills</h3>
             <div class="row gy-3 justify-content-center">
               <div class="col-md-6 col-lg-3">
@@ -445,134 +446,208 @@
         <div class="container">
           <div class="row gy-3">
             <div class="col-md-6 col-lg-4">
-              <a
-                href="https://e-commerce--woad.vercel.app/#/login"
-                class="text-decoration-none"
-              >
-                <div
-                  class="text-center border rounded-5 pb-3 shadow-lg my-project"
+              <div class="m-2 border rounded-5 pb-3 shadow-lg my-project">
+                <a
+                  href="https://e-commerce--woad.vercel.app/#/login"
+                  class="text-decoration-none"
                 >
-                  <picture>
-                    <img
-                      src="img/E commerce.png"
-                      alt="e commerce"
-                      class="w-100 rounded-5"
-                    />
-                    <figcaption class="text-center fs-4 text-primary my-3">
-                      E-commerce
-                    </figcaption>
-                  </picture>
-                  <button
-                    class="btn btn-outline-success text-capitalize rounded-pill"
+                  <div class="text-center">
+                    <picture>
+                      <img
+                        src="img/E commerce.png"
+                        alt="e commerce"
+                        class="w-100 rounded-5"
+                      />
+                      <figcaption class="text-center fs-4 text-primary my-3">
+                        E-commerce
+                      </figcaption>
+                    </picture>
+                    <button
+                      class="btn btn-outline-success text-capitalize rounded-pill"
+                    >
+                      visite site
+                    </button>
+                  </div>
+                </a>
+                <div class="text-center mt-3">
+                  <a
+                    href="https://github.com/Mohamed-Hosny1/e-commerce"
+                    class="btn btn-outline-info text-capitalize rounded-pill"
                   >
-                    visite site
-                  </button>
+                    My Repo</a
+                  >
                 </div>
-              </a>
+              </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <a
-                href="https://mohamed-hosny1.github.io/Bookmark/"
-                class="text-decoration-none"
-              >
-                <div
-                  class="text-center border rounded-5 pb-3 shadow-lg my-project"
+              <div class="m-2 border rounded-5 pb-3 shadow-lg my-project">
+                <a
+                  href="https://mohamed-hosny1.github.io/Bookmark/"
+                  class="text-decoration-none"
                 >
-                  <picture>
-                    <img
-                      src="img/bookmark.png"
-                      alt="bookmark"
-                      class="w-100 rounded-5"
-                    />
-                    <figcaption class="text-center fs-4 text-primary my-3">
-                      Bookmark
-                    </figcaption>
-                  </picture>
-                  <button
-                    class="btn btn-outline-success text-capitalize rounded-pill"
+                  <div class="text-center">
+                    <picture>
+                      <img
+                        src="img/bookmark.png"
+                        alt="bookmark"
+                        class="w-100 rounded-5"
+                      />
+                      <figcaption class="text-center fs-4 text-primary my-3">
+                        Bookmark
+                      </figcaption>
+                    </picture>
+                    <button
+                      class="btn btn-outline-success text-capitalize rounded-pill"
+                    >
+                      visite site
+                    </button>
+                  </div>
+                </a>
+                <div class="text-center mt-3">
+                  <a
+                    href="https://github.com/Mohamed-Hosny1/Bookmark"
+                    class="btn btn-outline-info text-capitalize rounded-pill"
                   >
-                    visite site
-                  </button>
+                    My Repo</a
+                  >
                 </div>
-              </a>
+              </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <a
-                href="https://mohamed-hosny1.github.io/Quotes/"
-                class="text-decoration-none"
-              >
-                <div
-                  class="text-center border rounded-5 pb-3 shadow-lg my-project"
+              <div class="m-2 border rounded-5 pb-3 shadow-lg my-project">
+                <a
+                  href="https://mohamed-hosny1.github.io/Quotes/"
+                  class="text-decoration-none"
                 >
-                  <picture>
-                    <img
-                      src="img/Quotes.png"
-                      alt="Quotes"
-                      class="w-100 rounded-5"
-                    />
-                    <figcaption class="text-center fs-4 text-primary my-3">
-                      Quotes
-                    </figcaption>
-                  </picture>
-                  <button
-                    class="btn btn-outline-success text-capitalize rounded-pill"
+                  <div class="text-center">
+                    <picture>
+                      <img
+                        src="img/Quotes.png"
+                        alt="Quotes"
+                        class="w-100 rounded-5"
+                      />
+                      <figcaption class="text-center fs-4 text-primary my-3">
+                        Quotes
+                      </figcaption>
+                    </picture>
+                    <button
+                      class="btn btn-outline-success text-capitalize rounded-pill"
+                    >
+                      visite site
+                    </button>
+                  </div>
+                </a>
+                <div class="text-center mt-3">
+                  <a
+                    href="https://github.com/Mohamed-Hosny1/Quotes"
+                    class="btn btn-outline-info text-capitalize rounded-pill"
                   >
-                    visite site
-                  </button>
+                    My Repo</a
+                  >
                 </div>
-              </a>
+              </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <a
-                href="https://mohamed-hosny1.github.io/login/"
-                class="text-decoration-none"
-              >
-                <div
-                  class="text-center border rounded-5 pb-3 shadow-lg my-project"
+              <div class="m-2 border rounded-5 pb-3 shadow-lg my-project">
+                <a
+                  href="https://mohamed-hosny1.github.io/login/"
+                  class="text-decoration-none"
                 >
-                  <picture>
-                    <img
-                      src="img/login.png"
-                      alt="Login and signup"
-                      class="w-100 rounded-5"
-                    />
-                    <figcaption class="text-center fs-4 text-primary my-3">
-                      Login and signup
-                    </figcaption>
-                  </picture>
-                  <button
-                    class="btn btn-outline-success text-capitalize rounded-pill"
+                  <div class="text-center">
+                    <picture>
+                      <img
+                        src="img/login.png"
+                        alt="Login and signup"
+                        class="w-100 rounded-5"
+                      />
+                      <figcaption class="text-center fs-4 text-primary my-3">
+                        Login and signup
+                      </figcaption>
+                    </picture>
+                    <button
+                      class="btn btn-outline-success text-capitalize rounded-pill"
+                    >
+                      visite site
+                    </button>
+                  </div>
+                </a>
+                <div class="text-center mt-3">
+                  <a
+                    href="https://github.com/Mohamed-Hosny1/login"
+                    class="btn btn-outline-info text-capitalize rounded-pill"
                   >
-                    visite site
-                  </button>
+                    My Repo</a
+                  >
                 </div>
-              </a>
+              </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <a
-                href="https://mohamed-hosny1.github.io/WeatherApp/"
-                class="text-decoration-none"
-              >
-                <div
-                  class="text-center border rounded-5 pb-3 shadow-lg my-project"
+              <div class="m-2 border rounded-5 pb-3 shadow-lg my-project">
+                <a
+                  href="https://mohamed-hosny1.github.io/WeatherApp/"
+                  class="text-decoration-none"
                 >
-                  <picture>
-                    <img
-                      src="img/Weather.png"
-                      alt="weather"
-                      class="w-100 rounded-5"
-                    />
-                    <figcaption class="text-center fs-4 text-primary my-3">
-                      The Weather
-                    </figcaption>
-                  </picture>
-                  <button
-                    class="btn btn-outline-success text-capitalize rounded-pill"
+                  <div class="text-center">
+                    <picture>
+                      <img
+                        src="img/Weather.png"
+                        alt="weather"
+                        class="w-100 rounded-5"
+                      />
+                      <figcaption class="text-center fs-4 text-primary my-3">
+                        The Weather
+                      </figcaption>
+                    </picture>
+                    <button
+                      class="btn btn-outline-success text-capitalize rounded-pill"
+                    >
+                      visite site
+                    </button>
+                  </div>
+                </a>
+                <div class="text-center mt-3">
+                  <a
+                    href="https://github.com/Mohamed-Hosny1/WeatherApp"
+                    class="btn btn-outline-info text-capitalize rounded-pill"
                   >
-                    visite site
-                  </button>
+                    My Repo</a
+                  >
                 </div>
-              </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="m-2 border rounded-5 pb-3 shadow-lg my-project">
+                <a
+                  href="https://mohamed-hosny1.github.io/My-Message/"
+                  class="text-decoration-none"
+                >
+                  <div class="text-center">
+                    <picture>
+                      <img
+                        src="img/My Message.png"
+                        alt="Message"
+                        class="w-100 rounded-5"
+                      />
+                      <figcaption class="text-center fs-4 text-primary my-3">
+                        My Message
+                      </figcaption>
+                    </picture>
+                    <button
+                      class="btn btn-outline-success text-capitalize rounded-pill"
+                    >
+                      visite site
+                    </button>
+                  </div>
+                </a>
+                <div class="text-center mt-3">
+                  <a
+                    href="https://github.com/Mohamed-Hosny1/My-Message.git"
+                    class="btn btn-outline-info text-capitalize rounded-pill"
+                  >
+                    My Repo</a
+                  >
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -644,6 +719,7 @@
     </section>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="js/index.js"></script>
   </body>
 </html>
